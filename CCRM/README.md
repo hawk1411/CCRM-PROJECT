@@ -142,7 +142,7 @@ Example session:
 Select an option: 1
 Students Menu: 1-Add 2-List 3-Print Profile 4-Back
 Enter choice: 1
-RegNo: 23BCY100832
+RegNo: 23BCY10032
 Full name: ravi kant mishra
 Email: ravi@example.com
 DOB (yyyy-mm-dd): 2004-05-18
@@ -190,5 +190,6 @@ Enable assertions at runtime using:
 * StackOverflow and community forums  
 
 ---
+
 
 
