@@ -177,11 +177,17 @@ Enable assertions at runtime using:
 * Running the interactive program  
 * Export and backup directory structure  
 
-*(Add all screenshots inside a `/screenshots/` folder within the repo)*
+<img width="1919" height="1020" alt="Screenshot 2025-09-25 165725" src="https://github.com/user-attachments/assets/1185c035-9d61-4301-b3a5-67c6644a9700" />
+<img width="1338" height="840" alt="Screenshot 2025-09-25 165610" src="https://github.com/user-attachments/assets/35a35daa-71db-41c4-9320-10d726b2401c" />
+<img width="1919" height="1024" alt="Screenshot 2025-09-25 165553" src="https://github.com/user-attachments/assets/41ab9aaf-8f06-4ac7-b893-786cc8e3bdf5" />
+<img width="1919" height="1020" alt="Screenshot 2025-09-25 165822" src="https://github.com/user-attachments/assets/06731d1c-037e-4827-b846-368c6aab4ab6" />
 
 ---
 
+<img width="1919" height="1030" alt="Screenshot 2025-09-25 165925" src="https://github.com/user-attachments/assets/6067b642-15e9-4a6c-8b5c-260a8b0b1e46" />
 
+<img width="1919" height="1018" alt="Screenshot 2025-09-25 170019" src="https://github.com/user-attachments/assets/22152583-3d05-496e-8e08-93a22f800ad7" />
+<img width="1919" height="1019" alt="Screenshot 2025-09-25 170116" src="https://github.com/user-attachments/assets/fa41d2b2-306c-439f-9736-8708d918a9d2" />
 
 ## 🙏 Acknowledgements
 
@@ -190,6 +196,7 @@ Enable assertions at runtime using:
 * StackOverflow and community forums  
 
 ---
+
 
 
 
