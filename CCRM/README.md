@@ -94,109 +94,28 @@ edu.ccrm.cli.CCRMApp
 
 ## 📂 Project Structure
 CCRM-PROJECT
-│ README.md
+│   README.md
 │
-├───bin
-└───ccrm-project
-│ .gitignore
-│ README.md
-│ USAGE.md
+├───bin/                 # Compiled .class files (output of Java compiler)
 │
-├───bin
-│ └───edu
-│ └───ccrm
-│ ├───cli
-│ │ * CCRMApp.class
-│ │
-│ ├───config
-│ │ * AppConfig.class
-│ │
-│ ├───domain
-│ │ * Course.class
-│ │ * CourseCode.class
-│ │ * Enrollment.class
-│ │ * Grade.class
-│ │ * Instructor.class
-│ │ * Person.class
-│ │ * Semester.class
-│ │ * Student.class
-│ │ * Course$Builder.class
-│ │
-│ ├───exceptions
-│ │ * DuplicateEnrollmentException.class
-│ │ * MaxCreditLimitExceededException.class
-│ │
-│ ├───io
-│ │ * BackupService.class
-│ │ * ImportExportService.class
-│ │
-│ ├───service
-│ │ * CourseService.class
-│ │ * CourseServiceImpl.class
-│ │ * DataStore.class
-│ │ * EnrollmentService.class
-│ │ * EnrollmentServiceImpl.class
-│ │ * EnrollmentServiceImpl$AppConfigWrapper.class
-│ │ * StudentService.class
-│ │ * StudentServiceImpl.class
-│ │
-│ └───util
-│ * ConsoleUtil.class
-│ * ConsoleUtil$1.class
-│ * RecursionUtil.class
-│ * Validators.class
+├───ccrm-project/        # Project configs & docs
+│   ├───.gitignore
+│   ├───README.md
+│   └───USAGE.md
 │
-├───screenshots
-│ * Exports-Backup.png
-│ * Java-version.png
-│ * Program-Structure&Running.png
-│ * Running-Program.png
+├───screenshots/         # Screenshots of program execution
 │
-├───src
-│ └───edu
-│ └───ccrm
-│ ├───cli
-│ │ * CCRMApp.java
-│ │
-│ ├───config
-│ │ * AppConfig.java
-│ │
-│ ├───domain
-│ │ * Course.java
-│ │ * CourseCode.java
-│ │ * Enrollment.java
-│ │ * Grade.java
-│ │ * Instructor.java
-│ │ * Person.java
-│ │ * Semester.java
-│ │ * Student.java
-│ │
-│ ├───exceptions
-│ │ * DuplicateEnrollmentException.java
-│ │ * MaxCreditLimitExceededException.java
-│ │
-│ ├───io
-│ │ * BackupService.java
-│ │ * ImportExportService.java
-│ │
-│ ├───service
-│ │ * CourseService.java
-│ │ * CourseServiceImpl.java
-│ │ * DataStore.java
-│ │ * EnrollmentService.java
-│ │ * EnrollmentServiceImpl.java
-│ │ * StudentService.java
-│ │ * StudentServiceImpl.java
-│ │
-│ └───util
-│ * ConsoleUtil.java
-│ * RecursionUtil.java
-│ * Validators.java
+├───src/                 # Main source code
+│   └───edu/ccrm/
+│       ├───cli/         # Entry point (main app)
+│       ├───config/      # Application configuration
+│       ├───domain/      # Core entities (Student, Course, etc.)
+│       ├───exceptions/  # Custom exceptions
+│       ├───io/          # Input/Output (Backup, Import/Export)
+│       ├───service/     # Business logic & services
+│       └───util/        # Helper utilities (validation, console utils)
 │
-└───test-data
-* courses.csv
-* students.csv
-
+└───test-data/           # CSV files for sample testing
 
 
 ---
@@ -309,6 +228,7 @@ Enable assertions at runtime using:
 * StackOverflow and community forums  
 
 ---
+
 
 
 
