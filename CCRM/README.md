@@ -180,11 +180,13 @@ following which there screen shots of other sample images as well
 
 ## 📂 Data Exports & Backups
 
-* Exported data files saved at:
+*Exported data → ~/test-data/students.csv, courses.csv.
+Backup created → ~/test-data/backup_20250924_153000/
 
 
-* Backups created in timestamped folders like:
 
+
+<img width="1919" height="1079" alt="Exports-Backup (1)" src="https://github.com/user-attachments/assets/dd34bef8-4559-4cf3-85bd-c512555b57d5" />
 
 ---
 
@@ -193,17 +195,17 @@ following which there screen shots of other sample images as well
 Example assertion in `Person.java`:
 
 
-Enable assertions at runtime using:
+Enable assertions at runtime using:java -ea edu.ccrm.cli.CCRMApp
 
 
 ---
 
 ## 📸 Screenshots
 
-* JDK installation confirmation (`java -version`)  
-* Eclipse project import and run setup  
-* Running the interactive program  
-* Export and backup directory structure  
+* JDK installation confirmation (`java -version`) ✅  
+* Eclipse project import and run setup ✅  
+* Running the interactive program ✅  
+* Export and backup directory structure ✅  
 
 
 
@@ -214,6 +216,7 @@ Enable assertions at runtime using:
 * StackOverflow and community forums  
 
 ---
+
 
 
 
