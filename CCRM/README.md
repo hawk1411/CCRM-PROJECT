@@ -93,29 +93,7 @@ edu.ccrm.cli.CCRMApp
 ---
 
 ## 📂 Project Structure
-CCRM-PROJECT
-│   * README.md
-│
-├───* bin/                 # Compiled .class files (output of Java compiler)
-│
-├───* ccrm-project/        # Project configs & docs
-│   │   * .gitignore
-│   │   * README.md
-│   │   * USAGE.md
-│
-├───* screenshots/         # Screenshots of program execution
-│
-├───* src/                 # Main source code
-│   └───* edu/ccrm/
-│       ├───* cli/         # Entry point (main app)
-│       ├───* config/      # Application configuration
-│       ├───* domain/      # Core entities (Student, Course, etc.)
-│       ├───* exceptions/  # Custom exceptions
-│       ├───* io/          # Input/Output (Backup, Import/Export)
-│       ├───* service/     # Business logic & services
-│       └───* util/        # Helper utilities (validation, console utils)
-│
-└───* test-data/           # CSV files for sample testing
+<img width="734" height="555" alt="image" src="https://github.com/user-attachments/assets/307c93d6-3893-4fd8-a708-afb4a57ac2f1" />
 
 ---
 
@@ -227,6 +205,7 @@ Enable assertions at runtime using:
 * StackOverflow and community forums  
 
 ---
+
 
 
 
