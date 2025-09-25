@@ -148,6 +148,8 @@ Email: ravi@example.com
 DOB (yyyy-mm-dd): 2004-05-18
 Student added: Student{id=..., regNo=23bcy10032, ...}
 
+following which there screen shots of other sample images as well
+
 <img width="1919" height="1020" alt="Screenshot 2025-09-25 165822" src="https://github.com/user-attachments/assets/06731d1c-037e-4827-b846-368c6aab4ab6" />
 .
 .
@@ -212,6 +214,7 @@ Enable assertions at runtime using:
 * StackOverflow and community forums  
 
 ---
+
 
 
 
