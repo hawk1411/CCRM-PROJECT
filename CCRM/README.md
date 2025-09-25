@@ -94,6 +94,113 @@ edu.ccrm.cli.CCRMApp
 
 ## 📂 Project Structure
 
+Folder PATH listing for volume OS
+Volume serial number is F4F5-CDCC
+C:.
+│   README.md
+│   
+├───bin
+└───ccrm-project
+    │   .gitignore
+    │   README.md
+    │   USAGE.md
+    │   
+    ├───bin
+    │   └───edu
+    │       └───ccrm
+    │           ├───cli
+    │           │       CCRMApp.class
+    │           │       
+    │           ├───config
+    │           │       AppConfig.class
+    │           │       
+    │           ├───domain
+    │           │       Course$Builder.class
+    │           │       Course.class
+    │           │       CourseCode.class
+    │           │       Enrollment.class
+    │           │       Grade.class
+    │           │       Instructor.class
+    │           │       Person.class
+    │           │       Semester.class
+    │           │       Student.class
+    │           │       
+    │           ├───exceptions
+    │           │       DuplicateEnrollmentException.class
+    │           │       MaxCreditLimitExceededException.class
+    │           │       
+    │           ├───io
+    │           │       BackupService.class
+    │           │       ImportExportService.class
+    │           │       
+    │           ├───service
+    │           │       CourseService.class
+    │           │       CourseServiceImpl.class
+    │           │       DataStore.class
+    │           │       EnrollmentService.class
+    │           │       EnrollmentServiceImpl$AppConfigWrapper.class
+    │           │       EnrollmentServiceImpl.class
+    │           │       StudentService.class
+    │           │       StudentServiceImpl.class
+    │           │
+    │           └───util
+    │                   ConsoleUtil$1.class
+    │                   ConsoleUtil.class
+    │                   RecursionUtil.class
+    │                   Validators.class
+    │
+    ├───screenshots
+    │       Exports-Backup.png
+    │       Java-version.png
+    │       Program-Structure&Running.png
+    │       Running-Program.png
+    │
+    ├───src
+    │   └───edu
+    │       └───ccrm
+    │           ├───cli
+    │           │       CCRMApp.java
+    │           │
+    │           ├───config
+    │           │       AppConfig.java
+    │           │
+    │           ├───domain
+    │           │       Course.java
+    │           │       CourseCode.java
+    │           │       Enrollment.java
+    │           │       Grade.java
+    │           │       Instructor.java
+    │           │       Person.java
+    │           │       Semester.java
+    │           │       Student.java
+    │           │
+    │           ├───exceptions
+    │           │       DuplicateEnrollmentException.java
+    │           │       MaxCreditLimitExceededException.java
+    │           │
+    │           ├───io
+    │           │       BackupService.java
+    │           │       ImportExportService.java
+    │           │
+    │           ├───service
+    │           │       CourseService.java
+    │           │       CourseServiceImpl.java
+    │           │       DataStore.java
+    │           │       EnrollmentService.java
+    │           │       EnrollmentServiceImpl.java
+    │           │       StudentService.java
+    │           │       StudentServiceImpl.java
+    │           │
+    │           └───util
+    │                   ConsoleUtil.java
+    │                   RecursionUtil.java
+    │                   Validators.java
+    │
+    └───test-data
+            courses.csv
+            students.csv
+
+
 
 ---
 
@@ -205,6 +312,7 @@ Enable assertions at runtime using:
 * StackOverflow and community forums  
 
 ---
+
 
 
 
