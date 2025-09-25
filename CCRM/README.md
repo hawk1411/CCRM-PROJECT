@@ -148,7 +148,7 @@ Email: ravi@example.com
 DOB (yyyy-mm-dd): 2004-05-18
 Student added: Student{id=..., regNo=23bcy10032, ...}
 
-
+<img width="1919" height="1020" alt="Screenshot 2025-09-25 165822" src="https://github.com/user-attachments/assets/06731d1c-037e-4827-b846-368c6aab4ab6" />
 .
 .
 <img width="1919" height="1020" alt="Screenshot 2025-09-25 165725" src="https://github.com/user-attachments/assets/1185c035-9d61-4301-b3a5-67c6644a9700" />
@@ -160,7 +160,7 @@ Student added: Student{id=..., regNo=23bcy10032, ...}
 .
 <img width="1919" height="1024" alt="Screenshot 2025-09-25 165553" src="https://github.com/user-attachments/assets/41ab9aaf-8f06-4ac7-b893-786cc8e3bdf5" />
 .
-<img width="1919" height="1020" alt="Screenshot 2025-09-25 165822" src="https://github.com/user-attachments/assets/06731d1c-037e-4827-b846-368c6aab4ab6" />
+
 
 .
 
@@ -212,6 +212,7 @@ Enable assertions at runtime using:
 * StackOverflow and community forums  
 
 ---
+
 
 
 
