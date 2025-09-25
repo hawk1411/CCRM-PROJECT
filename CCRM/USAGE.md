@@ -28,18 +28,18 @@ Menu will appear:
 Choose option: 1
 Students: 1-Add 2-List 3-PrintProfile 4-Back
 Choose: 1
-RegNo: 23BCY10082
+RegNo: 23BCY10032
 Full name: Somya Shekhar Tiwari
 Email: somya@example.com
 DOB (yyyy-mm-dd): 2004-05-18
-Added: Student{id=S1, regNo=23BCY10082, ...}
+Added: Student{id=S1, regNo=23BCY10032, ...}
 ```
 
 ### ➤ List Students
 
 ```
 Choose: 2
-Student{id=S1, regNo=23BCY10082, ...}
+Student{id=S1, regNo=23BCY10032, ...}
 ```
 
 ### ➤ Print Student Profile + Transcript
@@ -47,7 +47,7 @@ Student{id=S1, regNo=23BCY10082, ...}
 ```
 Choose: 3
 Student id: S1
-Profile: Student{id=S1, regNo=23BCY10082, ...}
+Profile: Student{id=S1, regNo=23BCY10032, ...}
 Transcript:
 Enrollment[studentId=S1, course=CS101, marks=95.0, grade=S]
 GPA: 10.00
@@ -164,5 +164,6 @@ Exiting... goodbye
 5. Export data (option 4 → Export).
 6. Create a backup (option 5).
 7. Exit program.
+
 
 ---
